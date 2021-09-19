@@ -29,7 +29,8 @@
     "underscore": "^1.13.1"
   },
   "scripts": {
-    "start": "webpack serve --mode development --open --port=8083",
+    "start": "webpack serve --config webpack.config.js --port=8083",
+    
     "build": "webpack --config webpack.prod.js"
   },
   "author": "",
