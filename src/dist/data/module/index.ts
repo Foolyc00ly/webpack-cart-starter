@@ -1,0 +1,1 @@
+export{copia,cadena} from './var-function';
